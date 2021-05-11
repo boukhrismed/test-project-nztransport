@@ -1,0 +1,66 @@
+/*
+	green color : #1f494f
+	yellow color : #FBBA00
+	section 3 color : #F0EFEF
+
+*/
+
+body {
+  background-color: #1f494f;
+  color: white;
+}
+/**** NAVIGATIon ****/
+
+.custom-toggler .navbar-toggler-icon {
+  border-color: rgb(251, 186, 0);
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(251, 186, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#main-nav li[class=] {
+  border-right: solid 1px #254246;
+}
+#main-nav li:last-child {
+  border-right: none;
+}
+
+.social-link {
+  color: #1f494f;
+  background-color: #fbba00;
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+
+/**** Header ****/
+.home-title {
+  border-bottom: 4px solid #fbba00;
+}
+
+.parent-img {
+  position: relative;
+  display: block;
+}
+
+.child-img {
+  top: 6%;
+  left: 29%;
+  position: absolute;
+}
+
+/****Section 3 ****/
+.gr-bg-w-text {
+  background-color: #1f494f;
+  color: white;
+}
+.gr-bg-y-text {
+  background-color: #1f494f;
+  color: #fbba00;
+}
+
+.y-bg-gr-text {
+  background-color: #fbba00;
+  color: #1f494f;
+}
+
+.line-bottom {
+  border-bottom: 4px solid #fbba00;
+}
